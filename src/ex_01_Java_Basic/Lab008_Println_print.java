@@ -1,12 +1,11 @@
 package ex_01_Java_Basic;
 
-public class Lab006_CommonMath {
+public class Lab008_Println_print {
     public static void main(String[] args) {
-        System.out.println(2+2);
-        System.out.println(2 * 2);
-        System.out.println(2/2);
-        System.out.println(2%2);
-        System.out.println(2-2);
-        System.out.println(3/2); // println always take integer part
+//        System.out.println("Vaishnavi");
+//        System.out.print("Guvvala");
+
+        System.out.print("HelloWorld1 ");
+        System.out.print("HelloWorld2");
     }
 }
