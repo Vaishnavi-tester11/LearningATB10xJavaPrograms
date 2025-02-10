@@ -1,6 +1,7 @@
 package ex_11_Functions;
 
 import java.sql.SQLOutput;
+import java.util.Scanner;
 
 public class Lab03_User_Defined_one {
         public static void main(String[] args){
@@ -24,9 +25,22 @@ public class Lab03_User_Defined_one {
 //            greet_with_fullname("Raghu","Alle");
 //            greet_with_fullname("Bindu","Ahaana");
 
-            greet_with_details("Vaishu",31,35000);
-            greet_with_details("Raghu",38,50000);
-            greet_with_details("Vaishu2",36,85000);
+//            greet_with_details("Vaishu",31,35000);
+//            greet_with_details("Raghu",38,50000);
+//            greet_with_details("Vaishu2",36,85000);
+
+            // 4. with parameter & with return type
+
+            Scanner sc=new Scanner(System.in);
+            System.out.println("PLease enter first_number");
+            int n1=sc.nextInt();
+            System.out.println("please enter the second number");
+            int n2=sc.nextInt();
+
+            int res=sum_of_two_numbers(n1,n2);
+            System.out.println("Sum of two numbers is "+res);
+            int res2=sum_of_three_numbers(8,2,9);
+            System.out.println("Sum of three numbers is "+res2);
 
         }
 
@@ -57,6 +71,14 @@ public class Lab03_User_Defined_one {
     }
 
     // 4. with parameter & with return type
+
+    static int sum_of_two_numbers(int a,int b){
+            return a+b;
+
+    }
+    static int sum_of_three_numbers(int a, int b,int c){
+            return a+b+c;
+    }
 
 
 }
