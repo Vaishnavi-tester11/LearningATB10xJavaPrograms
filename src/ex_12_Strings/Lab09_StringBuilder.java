@@ -5,6 +5,7 @@ public class Lab09_StringBuilder {
         StringBuilder name=new StringBuilder("Ram");
         name.append("Sita");
         System.out.println(name);
+        // Sita will append at the last of the Ram
 
         // difference b/w  String & stringBuilder
     }

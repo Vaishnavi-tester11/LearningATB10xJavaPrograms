@@ -21,5 +21,7 @@ public class Diff_StringBuilder_StringBuffer {
         System.out.println();
         sb.reverse();
         System.out.println(sb);
+
+        // this is the stringBuffer & StringBuilder example
     }
 }
