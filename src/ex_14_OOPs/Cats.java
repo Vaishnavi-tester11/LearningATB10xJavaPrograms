@@ -8,7 +8,7 @@ public class Cats {
         new Cat();
 
         c1.running();
-        c2.running(); // NullpointerException  bcz we are not creating Object here
+        //c2.running(); // NullpointerException  bcz we are not creating Object here
 
     }
 }
