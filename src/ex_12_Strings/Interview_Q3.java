@@ -5,15 +5,7 @@ package ex_12_Strings;
 
 public class Interview_Q3 {
     public static void main(String[] args) {
-        String str="amit is an automation developer";
-        int len=str.length();
-        int cta=0
-        for(int i=0; i<len ; i++){
-            if(str.charAt(i)=="a"){
-                cta=cta+1;
-            } else if (str.charAt(i)=="m") {
 
-            }
         }
     }
-}
+
