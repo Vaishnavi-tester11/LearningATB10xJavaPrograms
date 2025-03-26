@@ -1,4 +1,4 @@
-package ex_16_OOPs_concepts_2._SingleInheritance_Realexample;
+package ex_16_OOPs_concepts_2.Inheritance._SingleInheritance._SingleInheritance_Realexample;
 
 public class TeastCase1 extends CommonToAllTests {
 

@@ -1,4 +1,4 @@
-package ex_16_OOPs_concepts_2._SingleInheritance;
+package ex_16_OOPs_concepts_2.Inheritance._SingleInheritance;
 
 public class Son extends Father{ // extends means Son is inheriting
     // properties from Father

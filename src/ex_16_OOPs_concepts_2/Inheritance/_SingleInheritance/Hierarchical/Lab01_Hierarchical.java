@@ -1,4 +1,4 @@
-package ex_16_OOPs_concepts_2.Hierarchical;
+package ex_16_OOPs_concepts_2.Inheritance._SingleInheritance.Hierarchical;
 
 public class Lab01_Hierarchical {
 
