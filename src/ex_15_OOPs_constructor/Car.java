@@ -8,7 +8,7 @@ public class Car {
     // default constructor
 
      Car() {
-         name="Unkown Car";
+         name="Unknown Car";
          model="xxx";
          year=0;
          System.out.println("DC");
