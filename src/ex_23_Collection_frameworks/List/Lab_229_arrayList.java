@@ -1,11 +1,15 @@
-package ex_23_Collwction_frameworks;
+package ex_23_Collection_frameworks.List;
 
-import java.util.Vector;
+import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
-public class Lab_230_Vector {
+public class Lab_229_arrayList {
     public static void main(String[] args) {
-        Vector list =new Vector();
+        List mylist=new ArrayList(5);
+        List mylist0=new ArrayList(); // default it will take
+
+        List list=new LinkedList(); // Doubly Linked List
         list.add("Vaishu");
         list.add("Reddy");
         list.add(1947);
@@ -16,5 +20,4 @@ public class Lab_230_Vector {
         System.out.println(list.indexOf("Reddy"));
         System.out.println(list.lastIndexOf(1947));
     }
-    }
-
+}

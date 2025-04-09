@@ -1,8 +1,7 @@
-package ex_23_Collwction_frameworks;
+package ex_23_Collection_frameworks.List;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class Lab_232_Nested_ArrayList {
     public static void main(String[] args) {
