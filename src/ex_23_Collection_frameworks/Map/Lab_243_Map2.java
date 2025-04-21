@@ -18,6 +18,8 @@ public class Lab_243_Map2 {
         System.out.println(m1.containsValue(102));
         System.out.println(m1.keySet());
         System.out.println(m1.values());
+        System.out.println(m1.containsKey("id3"));
+        System.out.println(m1.get("id2"));
 
     }
 }

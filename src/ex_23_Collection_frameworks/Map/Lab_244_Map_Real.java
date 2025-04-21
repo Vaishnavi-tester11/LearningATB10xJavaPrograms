@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Lab_244_Map_Real {
     public static void main(String[] args) {
-        Map<String, Object> stu=new HashMap(); // Oject means any datatype
+        Map<String, Object> stu=new HashMap();  // Object means any datatype
         stu.put("name","Vaishnavi");
         stu.put("phone","9876543210");
         stu.put("address","Bengaluru");
@@ -15,6 +15,6 @@ public class Lab_244_Map_Real {
 
 
 
-    }
 
+    }
 }
