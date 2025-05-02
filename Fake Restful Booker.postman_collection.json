@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "8da66112-64ab-4dd6-bd31-748cd422c87a",
+		"name": "Fake Restful Booker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44341307",
+		"_collection_link": "https://vaishnavi-4473118.postman.co/workspace/ATB10X~e9b155f9-a492-43dc-8c0c-96aa655edb59/collection/44341307-8da66112-64ab-4dd6-bd31-748cd422c87a?action=share&source=collection_link&creator=44341307"
+	},
+	"item": [
+		{
+			"name": "{\n    \"firstname\" : \"Jim\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/{\n    \"firstname\" : \"Jim\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"{\n    \"firstname\" : \"Jim\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/{\n    \"firstname\" : \"Jim\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"{\n    \"firstname\" : \"Jim\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"bookingid\": 52801,\n    \"booking\": {\n        \"firstname\": \"Jim\",\n        \"lastname\": \"Brown\",\n        \"totalprice\": 111,\n        \"depositpaid\": true,\n        \"bookingdates\": {\n            \"checkin\": \"2018-01-01\",\n            \"checkout\": \"2019-01-01\"\n        },\n        \"additionalneeds\": \"Breakfast\"\n    }\n}"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://51131eff-8297-44ff-901f-7accff83520e.mock.pstmn.io"
+		}
+	]
+}

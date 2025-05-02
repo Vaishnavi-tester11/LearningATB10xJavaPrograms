@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "76dfe348-d46d-4eb9-8582-ef4a0acc053c",
+		"name": "Project #6 Data Driven Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44341307",
+		"_collection_link": "https://vaishnavi-4473118.postman.co/workspace/ATB10X~e9b155f9-a492-43dc-8c0c-96aa655edb59/collection/44341307-76dfe348-d46d-4eb9-8582-ef4a0acc053c?action=share&source=collection_link&creator=44341307"
+	},
+	"item": [
+		{
+			"name": "Login to User",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 201\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"\r",
+							"pm.test(\" Test Name \",function(){\r",
+							"    var resjson_Data=pm.response.json()\r",
+							"    pm.expect(resjson_Data.id).to.not.equal(null)\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "reqres-free-v1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"{{emai_id}}\",\r\n    \"password\" : \"{{password}}\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reqres.in/api/register/preprod",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"register",
+						"preprod"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
